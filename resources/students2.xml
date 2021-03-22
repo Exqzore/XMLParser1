@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:students xmlns:p="http://www.example.com/students"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.example.com/students students2.xsd ">
+	
+	<student login="aaaaaa">
+		<name>name</name>
+		<telephone>0</telephone>
+		<address>
+			<country>country</country>
+			<city>city</city>
+			<street>street</street>
+		</address>
+	</student>
+	<student login="bbbbbb">
+		<name>name</name>
+		<telephone>0</telephone>
+		<address>
+			<country>country</country>
+			<city>city</city>
+			<street>street</street>
+		</address>
+	</student>
+	
+</p:students>
