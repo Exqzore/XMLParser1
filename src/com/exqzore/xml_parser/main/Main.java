@@ -1,9 +1,8 @@
 package com.exqzore.xml_parser.main;
 
 import com.exqzore.xml_parser.entity.Node;
+import com.exqzore.xml_parser.exception.XMLParserException;
 import com.exqzore.xml_parser.parser.XMLParser;
-
-import java.io.IOException;
 
 public class Main {
     private static final String PATH_TO_XML = "resources/students2.xml";
@@ -14,7 +13,7 @@ public class Main {
         try {
             root = xmlParser.parse();
             System.out.println(root);
-        } catch (IOException exception) {
+        } catch (XMLParserException exception) {
             System.out.println(exception.getMessage());
         }
     }
